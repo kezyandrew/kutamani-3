@@ -387,3 +387,49 @@ jQuery(document).ready(function ($) {
   stickyFillInit();
 });
 
+// Services reveal and hide button
+const hide1 = document.getElementById("hide1");
+const hidebtn1 = document.getElementById("hidebtn1");
+const less1 = document.getElementById("less1");
+const hide2 = document.getElementById("hide2");
+const hidebtn2 = document.getElementById("hidebtn2");
+const less2 = document.getElementById("less2");
+const hide3 = document.getElementById("hide3");
+const hidebtn3 = document.getElementById("hidebtn3");
+const less3 = document.getElementById("less3");
+hide1.style.display = "none";
+hide2.style.display = "none";
+hide3.style.display = "none";
+
+const hideBtn = () => {
+  hide1.style.display = "block";
+  hidebtn1.style.display = "none";
+};
+
+const lessBtn = () => {
+  hide1.style.display = "none";
+  hidebtn1.style.display = "block";
+  less1.style.display = "none";
+};
+
+const hideBtn2 = () => {
+  hide2.style.display = "block";
+  hidebtn2.style.display = "none";
+};
+
+const lessBtn2 = () => {
+  hide2.style.display = "none";
+  hidebtn2.style.display = "block";
+  less2.style.display = "none";
+};
+
+const hideBtn3 = () => {
+  hide3.style.display = "block";
+  hidebtn3.style.display = "none";
+};
+
+const lessBtn3 = () => {
+  hide3.style.display = "none";
+  hidebtn3.style.display = "block";
+  less3.style.display = "none";
+};
