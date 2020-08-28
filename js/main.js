@@ -397,9 +397,13 @@ const less2 = document.getElementById("less2");
 const hide3 = document.getElementById("hide3");
 const hidebtn3 = document.getElementById("hidebtn3");
 const less3 = document.getElementById("less3");
+const hidebtn4 = document.getElementById("hidebtn4");
+const hide4 = document.getElementById("hide4");
+const less4 = document.getElementById("less4");
 hide1.style.display = "none";
 hide2.style.display = "none";
 hide3.style.display = "none";
+hide4.style.display = "none";
 
 const hideBtn = () => {
   hide1.style.display = "block";
@@ -432,4 +436,15 @@ const lessBtn3 = () => {
   hide3.style.display = "none";
   hidebtn3.style.display = "block";
   less3.style.display = "none";
+};
+
+const hideBtn4 = () => {
+  hide4.style.display = "block";
+  hidebtn4.style.display = "none";
+};
+
+const lessBtn4 = () => {
+  hide4.style.display = "none";
+  hidebtn4.style.display = "block";
+  less4.style.display = "none";
 };
