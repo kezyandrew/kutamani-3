@@ -441,6 +441,7 @@ const lessBtn3 = () => {
 const hideBtn4 = () => {
   hide4.style.display = "block";
   hidebtn4.style.display = "none";
+  lessBtn4.style.display = "block";
 };
 
 const lessBtn4 = () => {
