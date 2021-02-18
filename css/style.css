@@ -200,9 +200,10 @@ h6 {
 }
 
 .site-footer {
-  padding-top: 17rem;
+  padding-top: 10rem;
   padding-bottom: 4rem;
   background: black;
+  height: 100%;
 }
 .site-footer p {
   color: #8c8c8c;
