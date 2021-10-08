@@ -388,67 +388,91 @@ jQuery(document).ready(function ($) {
 });
 
 // Services reveal and hide button
-const hide1 = document.getElementById("hide1");
-const hidebtn1 = document.getElementById("hidebtn1");
-const less1 = document.getElementById("less1");
-const hide2 = document.getElementById("hide2");
-const hidebtn2 = document.getElementById("hidebtn2");
-const less2 = document.getElementById("less2");
-const hide3 = document.getElementById("hide3");
-const hidebtn3 = document.getElementById("hidebtn3");
-const less3 = document.getElementById("less3");
-const hidebtn4 = document.getElementById("hidebtn4");
-const hide4 = document.getElementById("hide4");
-const less4 = document.getElementById("less4");
-hide1.style.display = "none";
-hide2.style.display = "none";
-hide3.style.display = "none";
-hide4.style.display = "none";
+// const hide1 = document.getElementById("hide1");
+// const hidebtn1 = document.getElementById("hidebtn1");
+// const less1 = document.getElementById("less1");
+// const hide2 = document.getElementById("hide2");
+// const hidebtn2 = document.getElementById("hidebtn2");
+// const less2 = document.getElementById("less2");
+// const hide3 = document.getElementById("hide3");
+// const hidebtn3 = document.getElementById("hidebtn3");
+// const less3 = document.getElementById("less3");
+// const hidebtn4 = document.getElementById("hidebtn4");
+// const hide4 = document.getElementById("hide4");
+// const less4 = document.getElementById("less4");
+// hide1.style.display = "none";
+// hide2.style.display = "none";
+// hide3.style.display = "none";
+// hide4.style.display = "none";
 
-const hideBtn = () => {
-  hide1.style.display = "block";
-  hidebtn1.style.display = "none";
-};
+// const hideBtn = () => {
+//   hide1.style.display = "block";
+//   hidebtn1.style.display = "none";
+// };
 
-const lessBtn = () => {
-  hide1.style.display = "none";
-  hidebtn1.style.display = "block";
-  less1.style.display = "none";
-};
+// const lessBtn = () => {
+//   hide1.style.display = "none";
+//   hidebtn1.style.display = "block";
+//   less1.style.display = "none";
+// };
 
-const hideBtn2 = () => {
-  hide2.style.display = "block";
-  hidebtn2.style.display = "none";
-};
+// const hideBtn2 = () => {
+//   hide2.style.display = "block";
+//   hidebtn2.style.display = "none";
+// };
 
-const lessBtn2 = () => {
-  hide2.style.display = "none";
-  hidebtn2.style.display = "block";
-  less2.style.display = "none";
-};
+// const lessBtn2 = () => {
+//   hide2.style.display = "none";
+//   hidebtn2.style.display = "block";
+//   less2.style.display = "none";
+// };
 
-const hideBtn3 = () => {
-  hide3.style.display = "block";
-  hidebtn3.style.display = "none";
-};
+// const hideBtn3 = () => {
+//   hide3.style.display = "block";
+//   hidebtn3.style.display = "none";
+// };
 
-const lessBtn3 = () => {
-  hide3.style.display = "none";
-  hidebtn3.style.display = "block";
-  less3.style.display = "none";
-};
+// const lessBtn3 = () => {
+//   hide3.style.display = "none";
+//   hidebtn3.style.display = "block";
+//   less3.style.display = "none";
+// };
 
-const hideBtn4 = () => {
-  hide4.style.display = "block";
-  hidebtn4.style.display = "none";
-  lessBtn4.style.display = "block";
-};
+// const hideBtn4 = () => {
+//   hide4.style.display = "block";
+//   hidebtn4.style.display = "none";
+//   lessBtn4.style.display = "block";
+// };
 
-const lessBtn4 = () => {
-  hide4.style.display = "none";
-  hidebtn4.style.display = "block";
-  less4.style.display = "none";
+// const lessBtn4 = () => {
+//   hide4.style.display = "none";
+//   hidebtn4.style.display = "block";
+//   less4.style.display = "none";
+// };
+
+
+// landing page
+var menuBtn = document.getElementById("menuBtn");
+var sideNav = document.getElementById("sideNav");
+var menu = document.getElementById("menu");
+
+sideNav.style.right = "-250px";
+
+menuBtn.onclick = function () {
+  if (sideNav.style.right == "-250px") {
+    sideNav.style.right = "0";
+    menu.src = "https://i.postimg.cc/52GMz12X/close.png";
+  } else {
+    sideNav.style.right = "-250px";
+    menu.src = "https://i.postimg.cc/L5vc8FW6/menu.png";
+  }
 };
+/* scroll speed control */
+var scroll = new SmoothScroll('a[href*="#"]', {
+  speed: 500,
+  speedAsDuration: true
+});
+
 
 // disabling view source
 function mousehandler(e) {
@@ -486,3 +510,5 @@ function disableCtrlKeyCombination(e) {
   }
   return true;
 }
+
+// type writer
