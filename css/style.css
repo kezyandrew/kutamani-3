@@ -1536,9 +1536,9 @@ h6 {
 
 /*===========service============*/
 
-.service-b{
+/* .service-b{
   background-color: rgb(235, 233, 233);
-}
+} */
 .service-box {
 
   display: flex;
@@ -1548,15 +1548,16 @@ h6 {
   
 }
 :root {
-  --rose1: linear-gradient(to right,rgba(64, 64, 70,0.8),rgba(64, 64, 70,0.8));
-  --rose2: linear-gradient(to right,rgba(64, 64, 70,0.8),rgba(64, 64, 70,0.8));
-  --blue1: linear-gradient(to right,rgba(64, 64, 70,0.8),rgba(64, 64, 70,0.8));
-  --blue2: linear-gradient(to right,rgba(64, 64, 70,0.8),rgba(64, 64, 70,0.8));
-  --green1: linear-gradient(to right,rgba(64, 64, 70,0.8),rgba(64, 64, 70,0.8));
-  --green2: linear-gradient(to right,rgba(64, 64, 70,0.8),rgba(64, 64, 70,0.8));
-  --orange1: linear-gradient(to right,rgba(64, 64, 70,0.8),rgba(64, 64, 70,0.8));
-  --orange2: linear-gradient(to right,rgba(64, 64, 70,0.8),rgba(64, 64, 70,0.8));
+  --rose1: linear-gradient(to right,rgba(161, 161, 165, 0.8),rgba(161, 161, 165, 0.8));
+  --rose2: linear-gradient(to right,rgba(161, 161, 165, 0.8),rgba(161, 161, 165, 0.8))
+  --blue1: linear-gradient(to right,rgba(161, 161, 165, 0.8),rgba(161, 161, 165, 0.8))
+  --blue2: linear-gradient(to right,rgba(161, 161, 165, 0.8),rgba(161, 161, 165, 0.8));
+  --green1: linear-gradient(to right,rgba(161, 161, 165, 0.8),rgba(161, 161, 165, 0.8));
+  --green2: linear-gradient(to right,rgba(161, 161, 165, 0.8),rgba(161, 161, 165, 0.8));
+  --orange1: linear-gradient(to right,rgba(161, 161, 165, 0.8),rgba(161, 161, 165, 0.8));
+  --orange2: linear-gradient(to right,rgba(161, 161, 165, 0.8),rgba(161, 161, 165, 0.8));
   }
+
   
   body {
     background:#dee7ff;
@@ -1663,7 +1664,7 @@ h6 {
       background-color: #FF7125; 
   }
   .main-timeline .timeline:nth-child(4n+2) .timeline-content{
-      background: var(--blue1);
+      background: var(--green1);
   }
   .main-timeline .timeline:nth-child(4n+2) .timeline-content:before{ 
       background: #FF7125; 
@@ -1675,7 +1676,7 @@ h6 {
       background-color: #FF7125; 
   }
   .main-timeline .timeline:nth-child(4n+3) .timeline-content{
-      background: var(--blue1);
+      background: var(--green1);
   }
   .main-timeline .timeline:nth-child(4n+3) .timeline-content:before{ 
       background:#FF7125; 
